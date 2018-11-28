@@ -22,4 +22,10 @@ void Print(DList* plist);
 void ListPushBack(DList* plist,DataType data);
 DListNode* BuyDListNode(DataType data);
 void ListDestory(DList* plist);
+void ListPopBack(DList* plist);void
+void ListPushFront(DList* plist,DataType data);
+void ListPopFront(DList* plist);
+DListNode* ListFind(DList* plist,DataType data );
+DListNode* find_pos(DList* plist, int pos);
+void ListInsert(DList* plist,int pos, DataType data);
 #endif
